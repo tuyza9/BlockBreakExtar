@@ -1,0 +1,12 @@
+name: BlockBreakExtar
+main: BlockBreakExtar.BlockBreakExtar
+version: 0.8
+authors:
+  - Aukarapol Sangnoi
+contact:
+  - www.facebook.com/moyfull.jancak
+commands:
+  bbe:
+    description: BlockBreakExtar info.
+  bbereload:
+    description: BlockBreakExtar reload configuration.

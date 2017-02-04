@@ -1,0 +1,33 @@
+#ทุบบร็อกแล้วดรอป EXP:
+#Example : ตัวอย่าง
+#หากคุณไม่ต้องการให้ดรอปทำแบบนี้ ตัวอย่าง:
+#block-exp-drop-99: PORTAL
+block-type-drop-exp-1: CHEST
+blcok-set-exp-drop-1: 10
+
+block-type-drop-exp-2: CLAY
+blcok-set-exp-drop-2: 10
+
+block-type-drop-exp-3: EMERALD_BLOCK
+blcok-set-exp-drop-3: 10
+
+block-type-drop-exp-4: TORCH
+blcok-set-exp-drop-4: 10
+
+block-type-drop-exp-5: OBSIDIAN
+blcok-set-exp-drop-5: 10
+
+block-type-drop-exp-6: GOLD_BLOCK
+blcok-set-exp-drop-6: 10
+
+block-type-drop-exp-7: BRICK
+blcok-set-exp-drop-7: 10
+
+block-type-drop-exp-8: FIRE
+blcok-set-exp-drop-8: 10
+
+block-type-drop-exp-9: REDSTONE_ORE
+blcok-set-exp-drop-9: 10
+
+block-type-drop-exp-10: JUKEBOX
+blcok-set-exp-drop-10: 10

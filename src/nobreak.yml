@@ -1,0 +1,23 @@
+#ห้ามทุบบร็อก:
+#หากไม่ต้องการทำแบบนี้ ตัวอย่าง:
+#no-break-99: SNOW
+
+no-break-1: COAL_BLOCK
+
+no-break-2: BEDROCK
+
+no-break-3: LAPIS_BLOCK
+
+no-break-4: QUARTZ_BLOCK
+
+no-break-5: DROPPER
+
+no-break-6: NOTE_BLOCK
+
+no-break-7: IRON_DOOR_BLOCK
+
+no-break-8: SUGAR_CANE_BLOCK
+
+no-break-9: GOLD_BLOCK
+
+no-break-10: REDSTONE_BLOCK
