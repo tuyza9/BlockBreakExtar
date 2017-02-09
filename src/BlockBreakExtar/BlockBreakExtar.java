@@ -5,6 +5,7 @@
  */
 package BlockBreakExtar;
 
+import java.io.File;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -12,7 +13,8 @@ import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.configuration.Configuration;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -29,11 +31,16 @@ public class BlockBreakExtar
 extends JavaPlugin implements Listener
 {
     
-    public static Configuration conf;
+    FileConfiguration conf;
+    File cfile;
     
     public void onEnable(){
+        
         conf = getConfig();
-        saveDefaultConfig();
+        conf.options().copyDefaults(true);
+        saveConfig();
+        cfile = new File(getDataFolder(), "config.yml");
+        
         Bukkit.getLogger().info(getDescription() + " be has enable version: " + getDescription().getVersion());
         PluginManager manager = this.getServer().getPluginManager();
         manager.registerEvents((Listener) new Events(),this);
@@ -178,10 +185,7 @@ extends JavaPlugin implements Listener
                 );
             }
             if(cmd.getName().equalsIgnoreCase("bbereload")){
-                try {
-                    saveConfig();
-                } catch (Exception e) {
-                }
+                conf = YamlConfiguration.loadConfiguration(cfile);
                 Sender.sendMessage(ChatColor.DARK_GREEN + "Reload succss");
             }
                     }
