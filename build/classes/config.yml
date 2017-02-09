@@ -1,0 +1,92 @@
+#bast block player get commands
+#Example : ตัวอย่าง
+#หากคุณไม่ต้องการให้ดรอปทำแบบนี้ ตัวอย่าง:
+#block-break-type-cmd-99: WOOD
+#block-break-commands-99: spawn
+block-break-type-cmd-1: TNT
+block-break-commands-1: logout
+
+#block-break-type-cmd-2: Enterblock_ORE
+#block-break-commands-2: logout
+
+#block-break-type-cmd-3: Enterblock_ORE
+#block-break-commands-3: logout
+
+#block-break-type-cmd-4: Enterblock_ORE
+#block-break-commands-4: logout
+
+#block-break-type-cmd-5: Enterblock_ORE
+#block-break-commands-5: logout
+
+#block-break-type-cmd-6: Enterblock_ORE
+#block-break-commands-6: logout
+
+#block-break-type-cmd-7: Enterblock_ORE
+#block-break-commands-7: logout
+
+#block-break-type-cmd-8: Enterblock_ORE
+#block-break-commands-8: logout
+
+#block-break-type-cmd-9: Enterblock_ORE
+#block-break-commands-9: logout
+
+#block-break-type-cmd-10: Enterblock_ORE
+#block-break-commands-10: logout
+
+#ทุบบร็อกแล้วดรอป EXP:
+#Example : ตัวอย่าง
+#หากคุณไม่ต้องการให้ดรอปทำแบบนี้ ตัวอย่าง:
+#block-exp-drop-99: PORTAL
+#block-type-drop-exp-1: CHEST
+#blcok-set-exp-drop-1: 10
+
+block-type-drop-exp-2: CLAY
+blcok-set-exp-drop-2: 10
+
+block-type-drop-exp-3: EMERALD_ORE
+blcok-set-exp-drop-3: 10
+
+#block-type-drop-exp-4: TORCH
+#blcok-set-exp-drop-4: 10
+
+#block-type-drop-exp-5: OBSIDIAN
+#blcok-set-exp-drop-5: 10
+
+#block-type-drop-exp-6: GOLD_BLOCK
+#blcok-set-exp-drop-6: 10
+
+#block-type-drop-exp-7: BRICK
+#blcok-set-exp-drop-7: 10
+
+block-type-drop-exp-8: FIRE
+blcok-set-exp-drop-8: 10
+
+block-type-drop-exp-9: REDSTONE_ORE
+blcok-set-exp-drop-9: 10
+
+#block-type-drop-exp-10: JUKEBOX
+#blcok-set-exp-drop-10: 10
+
+#ห้ามทุบบร็อก:
+#หากไม่ต้องการทำแบบนี้ ตัวอย่าง:
+#no-break-99: SNOW
+
+#no-break-1: COAL_BLOCK
+
+#no-break-2: BEDROCK
+
+#no-break-3: LAPIS_BLOCK
+
+#no-break-4: QUARTZ_BLOCK
+
+#no-break-5: DROPPER
+
+#no-break-6: NOTE_BLOCK
+
+#no-break-7: IRON_DOOR_BLOCK
+
+#no-break-8: SUGAR_CANE_BLOCK
+
+#no-break-9: GOLD_BLOCK
+
+#no-break-10: REDSTONE_BLOCK
